@@ -55,3 +55,28 @@ languagess = {
     "python",
 }
 print(languagess)
+
+people = ["jane", "jhon", "sarah", "jen", "edward", "phli"]
+
+for person in people:
+    if person in favorite_languages.keys():
+        print(f"Hey {person.title()}, thank you for taking the poll.")
+    else:
+        print(f"Hey {person.title()}, I'd like you to take a poll.")
+
+favorite_languages = {
+    "jen": ["python", "rust"],
+    "sarah": ["C"],
+    "edward": ["go", "rust"],
+    "phli": ["haslell", "python"],
+}
+
+for name, languages in favorite_languages.items():
+    if len(languages) > 1:
+        print(f"{name.title()}'s favorite langues are: ")
+        for language in languages:
+            print(language)
+    else:
+        print(f"{name.title()}'s favorite langues is: ")
+        for language in languages:
+            print(language)
