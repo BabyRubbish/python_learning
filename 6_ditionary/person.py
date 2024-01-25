@@ -1,20 +1,20 @@
 mo_yusen = {
-    "first_name": "Mo",
-    "last_name": "Yusen",
+    "first_name": "Yusen",
+    "last_name": "Mo",
     "age": 19,
     "city": "nanjing",
 }
 
 zhang_huaiwen = {
-    "first_name": "zhang",
-    "last_name": "huaiwen",
+    "first_name": "huaiwen",
+    "last_name": "zhang",
     "age": 19,
     "city": "tianjing",
 }
 
 sun_yeqi = {
-    "first_name": "sun",
-    "last_name": "yeqi",
+    "first_name": "yeqi",
+    "last_name": "sun",
     "age": 19,
     "city": "taizhou",
 }
