@@ -1,0 +1,10 @@
+from pathlib import Path
+import json
+
+# 选定文件路径
+path = Path("numbers.json")
+# 获取文件内容
+contents = path.read_text()
+# 读取json文件的的内容
+numbers = json.loads(contents)
+print(numbers)
